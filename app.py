@@ -1,5 +1,5 @@
 import streamlit as st
-
+from config import LOGIN_BACKGROUND
 
 # ============================================================
 # CONFIGURATION
@@ -84,7 +84,7 @@ def apply_background(background):
         /* Main width */
         .main .block-container {{
             max-width: 850px;
-            padding-top: 45px;
+            padding-top: 0px;
             padding-bottom: 50px;
         }}
 
@@ -111,7 +111,7 @@ def apply_background(background):
         /* JobSim title */
         .jobsim-title {{
             text-align: center;
-            margin: 10px 0 35px 0;
+            margin: 0px 0px 35px 0px;
         }}
 
         .jobsim-title-text {{
